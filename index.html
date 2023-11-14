@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+
+    <div>
+        <div><p>Ejemplo 1: Petición asíncrona GET y respuesta con SUBVISTA</p></div>
+        <div>
+            <form>
+                <div><label>Max. Nº Repeticiones: </label><input type="number" min="1" max="40" /></div>
+                <div><label>Palabra: </label><input type="text" /></div>
+                <div><input type="button" id="btn1" value="Enviar"/></div>
+            </form>
+        </div>
+        <div><p>Respuesta:</p></div>
+        <div id="REjemplo1"></div>
+    </div>
+    <div>
+        <div><p>Ejemplo 2: Petición asíncrona POST y respuesta con JSON</p></div>
+        <div>
+            <form>
+                <div><label>Nombre y apellidos: </label><input type="text" /></div>
+                <div><label>F. Nacimiento: </label><input type="date" /></div>
+                <div><label>Hijos: </label><input type="number" min="1" max="100" /></div>
+                <div><input type="button" id="btn2" value="Enviar"/></div>
+            </form>
+        </div>
+        <div><p>Respuesta:</p></div>
+        <div id="REjemplo2"></div>
+    </div>
+
+</body>
+</html>
